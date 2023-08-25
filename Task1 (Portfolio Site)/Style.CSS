@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(2, 4, 66);
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+.about{
+    display: flex;
+    justify-content: space-around ;
+    margin-top: 100px;
+    margin-bottom: 290px;
+}
+.about>div{
+    width:35%
+}
+.leftdivabout{
+    font-size:2rem;
+    margin-top:120px;
+}
+
+.rightdivabout img{
+    margin-top: 20%;
+    width: 90%;
+    height:80%
+}
+
+.leftBar{
+    font-size: 1.5rem;
+    font-style:initial;
+}
+.navig{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 1, 34);
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    margin-left: 22px;
+    margin-right:22px
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+.txtcolor{
+    color:rgb(180, 108, 248)
+}
+.dott{
+    color: rgb(2, 4, 66);
+}
+
+.workexperience{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.workexperience>div{
+    width: 35%;
+}
+
+.workexperiencedata{
+    margin-top:70px;
+    margin-bottom:180px;
+    font-size: 1.5rem;
+    color: rgb(254, 226, 84);
+}
+.workimg{
+    overflow: auto;
+    margin-top: 225px;
+    margin-bottom:15px;
+    height:35%;
+    width: 90%;
+    border-radius: 50%;
+}
+.workimg2{
+    overflow: auto;
+    margin-top: 80px;
+    height:35%;
+    width: 70%;
+    margin-left: 45px
+}
+h1{
+    margin-top :120px;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-offset: 10px;
+}
+.skills{
+    max-width: 70vw;
+    margin: auto;
+}
+.container{
+ height:80px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.container .progress-percentage{
+     margin-bottom:25px;
+}
+.container .progress-percentage p{
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+.container .progress-percentage .bar{
+   position:relative;
+   width:500px;
+   height:30px;
+   border-radius:40px;
+   background-color: rgb(162, 158, 158);
+   box-shadow: 3px 4px 5px 0px rgba(204 185 185 / .75);
+   
+}
+.container .progress-percentage .bar span{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 0;
+ height: 100%;
+ color: white;
+ font-weight: 800;
+ font-size: 16px;
+ line-height: 1.7;
+ text-align: center;
+ border-radius: 30px;
+ background: linear-gradient(90deg,blueviolet 50%,rgb(56, 2, 2) 100%);
+ transition: width .5s linear;
+}
+.colbar{
+ color: black;
+}
+#sk{
+    width: 100vp;
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+
+.projects{
+    max-width:70vw;
+    margin: auto;
+    margin-bottom:200px
+}
+
+.bartxt{
+ margin-bottom: 15px;
+ margin-left: 15px;
+}
+.random{
+    width: 100%
+}
+
+i{
+    margin-top:5px;
+}
+
+.tab{
+    width:100%
+}
+.row{
+    width: 100%;
+}
+.datapic{
+    width: 35%;
+    border-radius: 20%;
+    overflow: hidden;
+}
+.datapic img{
+    margin-top: 50px;
+    border-radius: 20%;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .4s ease-in;
+}
+.datapic:hover img{
+    transform: scale(1.1);
+}
+.txtdata{
+    float: right;
+    font-size: 20px;
+    margin-top:100px;
+    margin-right:40px
+}
+.txtdata2{
+    float: right;
+    font-size: 20px;
+    margin-top:150px;
+    margin-right:80px;
+}
+.txtdata3{
+    float: right;
+    font-size: 20px;
+    margin-top:120px;
+    margin-right:240px;
+}
+.btn{
+    padding:12px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.Footer{
+    display: block;
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+.hd{
+    padding-left: 200px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.Footer ul{
+    padding-top:35px;
+}
+.Footer ul li{
+    max-width:60% ;
+    margin: auto;
+}
+.Footer span{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.button{
+    margin-top: 50px;
+    padding:12px;
+    background: darkblue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
